@@ -23,6 +23,13 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        buttonCreditos =(Button)findViewById(R.id.buttonCreditos);
+        buttonCreditos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openCreditos();
+            }
+        });
        buttonInicar = (Button) findViewById(R.id.buttonIniciar);
        buttonInicar.setOnClickListener(new View.OnClickListener() {
            @Override
@@ -54,8 +61,15 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
     private Button buttonInicar;
+    private Button buttonCreditos;
+
     public void openIniciar(){
         Intent intenti = new Intent(this,Iniciar.class);
         startActivity(intenti);
+    }
+
+    public void openCreditos(){
+        Intent intentc = new Intent(this,Creditos.class);
+        startActivity(intentc);
     }
 }

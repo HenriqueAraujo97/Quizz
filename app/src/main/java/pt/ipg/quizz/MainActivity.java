@@ -1,5 +1,6 @@
 package pt.ipg.quizz;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -11,6 +12,7 @@ import androidx.appcompat.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -21,14 +23,13 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
+       buttonInicar = (Button) findViewById(R.id.buttonIniciar);
+       buttonInicar.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View v) {
+               openIniciar();
+           }
+       });
     }
 
     @Override
@@ -51,5 +52,10 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+    private Button buttonInicar;
+    public void openIniciar(){
+        Intent intenti = new Intent(this,Iniciar.class);
+        startActivity(intenti);
     }
 }

@@ -30,6 +30,17 @@ public class MainActivity extends AppCompatActivity {
                 openCreditos();
             }
         });
+        buttonOpcao = (Button) findViewById(R.id.buttonOpcao);
+        buttonOpcao.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+              openSettings();
+            }
+
+        });
+
+
+
        buttonInicar = (Button) findViewById(R.id.buttonIniciar);
        buttonInicar.setOnClickListener(new View.OnClickListener() {
            @Override
@@ -62,6 +73,8 @@ public class MainActivity extends AppCompatActivity {
     }
     private Button buttonInicar;
     private Button buttonCreditos;
+    private Button buttonOpcao;
+
 
     public void openIniciar(){
         Intent intenti = new Intent(this,Iniciar.class);
@@ -72,4 +85,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intentc = new Intent(this,Creditos.class);
         startActivity(intentc);
     }
+
+    public void openSettings(){
+        Intent intentS = new Intent(this,Settings.class);
+        startActivity(intentS);
+    }
+
 }

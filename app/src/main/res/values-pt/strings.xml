@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quizz</string>
+    <string name="action_settings">Definções</string>
+    <string name="start">Começar</string>
+    <string name="creditos">Créditos</string>
+    <string name="opcao">Opções</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="guardar">Guardar</string>
+    <string name="nome">Nome</string>
+    <string name="idade">Idade</string>
+    <string name="nome_obrig">O campo está vazio</string>
+    <string name="jogador_adicionado">Jogador Criado</string>
+    <string name="charact">Não é possível introduzir caracteres especiais!</string>
+    <string name="textviewNome">TextView</string>
+    <string name="textviewIdade">TextView</string>
+</resources>

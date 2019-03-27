@@ -10,4 +10,7 @@
     <string name="idade">Idade:</string>
     <string name="textviewNome">TextView</string>
     <string name="textviewIdade">TextView</string>
+    <string name="nome_obrig">O campo está vazio</string>
+    <string name="jogador_adicionado">Jogador Criado</string>
+    <string name="charact">Não é possível introduzir caracteres especiais!</string>
 </resources>

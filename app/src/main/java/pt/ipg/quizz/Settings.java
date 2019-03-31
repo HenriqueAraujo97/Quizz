@@ -33,7 +33,7 @@ public class Settings extends AppCompatActivity {
 
                 if (mensagem.trim().length() == 0) {
                     editTextNome.setError(getString(R.string.nome_obrig));
-                }else if (!mensagem.matches("[a-zA-Z ]+")){
+                }else if (!mensagem.matches("[a-zA-Z ]+[0-9]")){
                     editTextNome.setError(getString(R.string.charact));
                 }else{
                     finish();

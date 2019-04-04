@@ -41,6 +41,8 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
+
        buttonInicar = (Button) findViewById(R.id.buttonIniciar);
        buttonInicar.setOnClickListener(new View.OnClickListener() {
            @Override
@@ -76,6 +78,9 @@ public class MainActivity extends AppCompatActivity {
     private Button buttonOpcao;
 
 
+
+
+
     public void openIniciar(){
         Intent intenti = new Intent(this,Iniciar.class);
         startActivity(intenti);
@@ -90,5 +95,6 @@ public class MainActivity extends AppCompatActivity {
         Intent intentS = new Intent(this,Settings.class);
         startActivity(intentS);
     }
+
 
 }

@@ -13,4 +13,10 @@
     <string name="nome_obrig">Can\'t be empty</string>
     <string name="jogador_adicionado">New Player Add</string>
     <string name="charact">Special characters are not valid!</string>
+    <string name="escolha_o_seu_tema">Escolha o seu tema:</string>
+    <string name="buttonCancelar1">Button</string>
+    <string name="cancelar1">Cancelar</string>
+    <string name="eliminar1">Eliminar</string>
+    <string name="guardar1">Guardar</string>
+    <string name="defini_es">Definições</string>
 </resources>

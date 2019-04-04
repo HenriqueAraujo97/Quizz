@@ -13,18 +13,18 @@
     <string name="nome_obrig">Can\'t be empty</string>
     <string name="jogador_adicionado">New Player Add</string>
     <string name="charact">Special characters are not valid!</string>
-    <string name="escolha_o_seu_tema">Escolha o seu tema:</string>
+    <string name="escolha_o_seu_tema">Chose your theme</string>
     <string name="buttonCancelar1">Button</string>
-    <string name="cancelar1">Cancelar</string>
-    <string name="eliminar1">Eliminar</string>
-    <string name="guardar1">Guardar</string>
-    <string name="defini_es">Definições</string>
+    <string name="cancelar1">Cancel</string>
+    <string name="eliminar1">Delete</string>
+    <string name="guardar1">Save</string>
+    <string name="defini_es">Definition</string>
     <string name="buttonCancelar2">Button</string>
 
-    <string name="buttoncancelar2">Cancelar</string>
-    <string name="buttonEliminar3">Eliminar</string>
-    <string name="temas">Temas</string>
-    <string name="desporto">Desporto</string>
-    <string name="ci_ncia">Ciência</string>
-    <string name="artes">Artes</string>
+    <string name="buttoncancelar2">Cancel</string>
+    <string name="buttonEliminar3">Delete</string>
+    <string name="temas">Theme</string>
+    <string name="desporto">Sport</string>
+    <string name="ci_ncia">Science</string>
+    <string name="artes">Arts</string>
 </resources>

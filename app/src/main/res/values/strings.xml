@@ -19,4 +19,12 @@
     <string name="eliminar1">Eliminar</string>
     <string name="guardar1">Guardar</string>
     <string name="defini_es">Definições</string>
+    <string name="buttonCancelar2">Button</string>
+
+    <string name="buttoncancelar2">Cancelar</string>
+    <string name="buttonEliminar3">Eliminar</string>
+    <string name="temas">Temas</string>
+    <string name="desporto">Desporto</string>
+    <string name="ci_ncia">Ciência</string>
+    <string name="artes">Artes</string>
 </resources>

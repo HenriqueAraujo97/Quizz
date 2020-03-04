@@ -33,8 +33,7 @@ public class Settings extends AppCompatActivity {
 
                 if (mensagem.trim().length() == 0) {
                     editTextNome.setError(getString(R.string.nome_obrig));
-                }else if (!mensagem.matches("[a-zA-Z ]")){
-                    editTextNome.setError(getString(R.string.charact));
+
                 }else{
                     finish();
                     Toast.makeText(Settings.this,"Jogador Guardado",Toast.LENGTH_SHORT).show();

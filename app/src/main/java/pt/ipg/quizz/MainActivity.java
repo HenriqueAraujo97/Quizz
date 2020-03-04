@@ -39,7 +39,13 @@ public class MainActivity extends AppCompatActivity {
 
         });
 
-
+        buttonOpcao = findViewById(R.id.buttonOutros);
+        buttonOpcao.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openOutros();
+            }
+        });
 
 
 
@@ -76,9 +82,17 @@ public class MainActivity extends AppCompatActivity {
     private Button buttonInicar;
     private Button buttonCreditos;
     private Button buttonOpcao;
+    private Button buttonOutros;
 
 
 
+
+
+
+    public void openOutros(){
+        Intent intento = new Intent(this,Outros.class);
+        startActivity(intento);
+    }
 
 
     public void openIniciar(){

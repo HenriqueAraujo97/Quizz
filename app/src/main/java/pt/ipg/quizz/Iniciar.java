@@ -46,11 +46,10 @@ public class Iniciar extends AppCompatActivity {
 
                 if (mensagem.trim().length() == 0) {
                     editTextNome.setError(getString(R.string.nome_obrig));
-                }else if (!mensagem.matches("[a-zA-Z ]")){
-                    editTextNome.setError(getString(R.string.charact));
+
                 }else{
                     finish();
-                    Toast.makeText(Iniciar.this,"Jogador Guardado",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Iniciar.this,"Tema Esolhido",Toast.LENGTH_SHORT).show();
                 }
             }
         });
